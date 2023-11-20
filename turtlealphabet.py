@@ -2,7 +2,7 @@ import turtle
 
 def trtshape(trt,x):
 
-    if x == "a":
+    if x == "A":
         trt.setheading(90)
         trt.fd(50)
         trt.penup()
@@ -39,7 +39,7 @@ def trtshape(trt,x):
         trt.fd(35)
         trt.pendown()
 
-    elif x == "b":
+    elif x == "B":
         trt.setheading(90)
         trt.fd(50)
         trt.penup()
@@ -86,7 +86,7 @@ def trtshape(trt,x):
         trt.fd(35)
         trt.pendown()
 
-    elif x == "c" :
+    elif x in ("C","Ç") :
         trt.setheading(0)
         trt.penup()
         trt.fd(3)
@@ -117,7 +117,7 @@ def trtshape(trt,x):
         trt.fd(30)
         trt.pendown()
 
-    elif x == "d":
+    elif x == "D":
         trt.setheading(90)
         trt.fd(50)
         trt.penup()
@@ -178,7 +178,7 @@ def trtshape(trt,x):
         trt.fd(35)
         trt.pendown()
 
-    elif x == "f":
+    elif x == "F":
         trt.setheading(90)
         trt.penup()
         trt.fd(3)
@@ -208,7 +208,7 @@ def trtshape(trt,x):
         trt.fd(35)
         trt.pendown()    
 
-    elif x == "g" :
+    elif x in ("G","Ğ"):
         trt.setheading(90)
         trt.fd(50)
         trt.penup()
@@ -246,7 +246,7 @@ def trtshape(trt,x):
         trt.fd(95)
         trt.pendown()
 
-    elif x == "h":
+    elif x == "H":
         trt.setheading(90)
         trt.fd(50)
         trt.penup()
@@ -283,7 +283,7 @@ def trtshape(trt,x):
         trt.fd(35)
         trt.pendown()
 
-    elif x == "i" :
+    elif x in ("I","İ") :
         trt.setheading(0)
         trt.penup()
         trt.fd(30)
@@ -300,7 +300,7 @@ def trtshape(trt,x):
         trt.fd(60)
         trt.pendown()
 
-    elif x == "j":
+    elif x == "J":
         trt.setheading(0)
         trt.fd(60)
         trt.penup()
@@ -319,7 +319,7 @@ def trtshape(trt,x):
         trt.fd(35)
         trt.pendown()
 
-    elif x == "k":
+    elif x == "K":
         trt.setheading(90)
         trt.fd(50)
         trt.penup()
@@ -347,7 +347,7 @@ def trtshape(trt,x):
         trt.fd(30)
         trt.pendown()
     
-    elif x == "l":
+    elif x == "L":
         trt.setheading(90)
         trt.fd(50)
         trt.penup()
@@ -364,7 +364,7 @@ def trtshape(trt,x):
         trt.fd(30)
         trt.pendown()
 
-    elif x == "m":
+    elif x == "M":
         trt.setheading(90)
         trt.fd(50)
         trt.penup()
@@ -386,9 +386,13 @@ def trtshape(trt,x):
         trt.fd(3)
         trt.pendown()
         trt.fd(50)
+        trt.penup()
+        trt.fd(3)
+        trt.setheading(0)
+        trt.fd(30)
         trt.pendown()
 
-    elif x == "n":
+    elif x == "N":
         trt.setheading(90)
         trt.fd(50)
         trt.penup()
@@ -409,7 +413,7 @@ def trtshape(trt,x):
         trt.fd(35)
         trt.pendown()
 
-    elif x == "o":
+    elif x in ("O","Ö") :
         trt.setheading(90)
         trt.fd(50)
         trt.penup()
@@ -448,7 +452,7 @@ def trtshape(trt,x):
         trt.fd(35)
         trt.pendown()
 
-    elif x == "p":
+    elif x == "P":
         trt.setheading(90)
         trt.penup()
         trt.fd(3)
@@ -479,7 +483,7 @@ def trtshape(trt,x):
         trt.fd(35)
         trt.pendown()    
 
-    elif x == "q":
+    elif x == "Q":
         trt.setheading(90)
         trt.fd(50)
         trt.penup()
@@ -524,7 +528,7 @@ def trtshape(trt,x):
         trt.fd(35)
         trt.pendown()
 
-    elif x == "r":
+    elif x == "R":
         trt.setheading(90)
         trt.fd(50)
         trt.penup()
@@ -565,7 +569,7 @@ def trtshape(trt,x):
         trt.fd(40)
         trt.pendown()
 
-    elif x == "s":
+    elif x in ("S","Ş"):
         trt.penup()
         trt.setheading(90)
         trt.fd(50)
@@ -610,7 +614,7 @@ def trtshape(trt,x):
         trt.fd(35)
         trt.pendown()
 
-    elif x == "t":
+    elif x == "T":
         trt.setheading(0)
         trt.penup()
         trt.fd(30)
@@ -635,7 +639,7 @@ def trtshape(trt,x):
         trt.fd(60)
         trt.pendown()
 
-    elif x == "u":
+    elif x in ("U","Ü"):
         trt.setheading(90)
         trt.fd(50)
         trt.penup()
@@ -664,7 +668,7 @@ def trtshape(trt,x):
         trt.fd(30)
         trt.pendown()
 
-    elif x == "v":
+    elif x == "V":
         trt.setheading(90)
         trt.penup()
         trt.fd(53)
@@ -698,7 +702,7 @@ def trtshape(trt,x):
         trt.fd(30)
         trt.pendown()
 
-    elif x == "w":
+    elif x == "W":
         trt.setheading(90)
         trt.fd(50)
         trt.penup()
@@ -731,7 +735,7 @@ def trtshape(trt,x):
         trt.fd(30)
         trt.pendown()
 
-    elif x == "x":
+    elif x == "X":
         trt.setheading(60)
         trt.fd(120)
         trt.fd(-60)
@@ -743,7 +747,7 @@ def trtshape(trt,x):
         trt.fd(30)
         trt.pendown()
 
-    elif x == "y":
+    elif x == "Y":
         trt.setheading(90)
         trt.penup()
         trt.fd(53)
@@ -773,7 +777,7 @@ def trtshape(trt,x):
         trt.fd(30)
         trt.pendown()
 
-    elif x == "z":
+    elif x == "Z":
         trt.setheading(90)
         trt.penup()
         trt.fd(106)
