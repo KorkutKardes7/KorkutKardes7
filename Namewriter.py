@@ -10,19 +10,17 @@ name = wn.textinput("Name, Please.","Write your name")      # Getting his/her na
 
 charsinname = []                 # Created an empty list to fill with necessary letters
 
-charsinnamewithduplicates = list(name)         # Seperated name in to a list
+charsinnamewithduplicates = list(name.upper())         # Seperated name in to a list 
 
 
 for i in charsinnamewithduplicates:
-    if i ==" ":                               # Removing duplicates and spaces
+    if i ==" ":                               # Removing duplicates and spaces then adding characters into charsinname list
         i ==" "
     elif i not in charsinname:
         charsinname.append(i)
 
 
 del charsinname[5:]              # Removed unnecessary letters(We only need first 5 index)
-
-
 
 
 NameWriter = turtle.Turtle()     # Created a turtle to write letters
@@ -39,7 +37,6 @@ for i in charsinname:                                # Looping for every letter 
     b =int((255*random.random()))
     NameWriter.color(r,g,b)
     turtlealphabet.trtshape(NameWriter,i)
-
 
 
 wn.exitonclick()
