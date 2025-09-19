@@ -1,5 +1,4 @@
 - 👋 Hi, I’m @KorkutKardes7
-- 🌱 I’m currently learning Python
 - 📫 How to reach me Instagram ---> korkut.kardes7
 
 <!---
